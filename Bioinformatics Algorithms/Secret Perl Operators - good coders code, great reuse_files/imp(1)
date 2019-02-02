@@ -1,0 +1,8 @@
+document.write('<a target=\"_blank\" href=\"http://adserving.cpxinteractive.com/clk?3,eJydTctugzAQ.JrcSLS2QwChHuwALW1MXkgVuQGxTFsSU7Dkpl9fp7TNvaPV7GhnVoNIKIAEdS1qFwFA5eIQzdGx8v05FsSBMAzRwsMLl3gEHOCdpMutSgwLdifO6BXMcw-SjpB0d5TFqDf-lZfJPu2KHx.eh49RsSx48On.wQ7M.P6nlBpbHfk0h6cUQ8z-YlHT8ufCXd9zs8qzJnuNNc-Tll.QS.G5vazy2FifZNHj2zoqgN8K7hyn0bqbEDrBiR1jzKwutTqfSj07C21PVaukXYOoe6GnnejbqbJsQ.3w.USkKvUgvgCEzGe2,\"><img border=\"0\" alt=\"\" height=\"90\" width=\"728\" src=\"http://content.yieldmanager.edgesuite.net/atoms/bb/2a/6a/a0/bb2a6aa0efad0e54c1227d8ab2bbcc49.gif\"></img></a>');
+var rm_data = new Object();
+rm_data.creative_id = 23283325;
+rm_data.offer_type = 38;
+rm_data.entity_id = 192914;
+
+document.write('<scr' + 'ipt type="text/javascript" src="http://ad.r.worldssl.net/px.js?ex=RMX&id=0"></scr' + 'ipt>');
+if (window.rm_crex_data) {rm_crex_data.push(23283325);}

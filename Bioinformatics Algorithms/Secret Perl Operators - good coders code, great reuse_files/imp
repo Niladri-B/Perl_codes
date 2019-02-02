@@ -1,0 +1,6 @@
+document.write('<iframe allowtransparency=\"true\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" height=\"600\" width=\"160\" src=\"http://adserving.cpxinteractive.com/iframe3?0MpgACQoFwA3P2IBAAAAANd9ZgAAAAAAAgARdgoAAAAAAP8AAAACFSIpYgAAAAAAcb8AAAAAAADQcH8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZBw8AAAAAAAIAAwAAgD8AAAAAAAAAAABfPrVDFDyjPwAAAAAAAAAApV5sOGYHsD8AAAAAAAAAAGlIX7P.tro.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABySw8RGSauDrXL246Es.mrHFUCOh6aOwYQuh.RAAAAAA==,,http%3A%2F%2Fwww.catonmat.net%2Fblog%2Fsecret-perl-operators%2F%23goatse,B%3D10%26H%3Dhttp%253A%252F%252Fwww.catonmat.net%252Fblog%252Fsecret-perl-operators%252F%2523goatse%26M%3D4%26Z%3D160x600%26_salt%3D1819700437%26r%3D1%26referrer%3Dhttp%253a%252f%252fwww.catonmat.net%252fblog%252fsecret-perl-operators%252f%26s%3D1517604,8d81976a-3a61-11e3-94d0-17d81f2872c4,1382367641156\"></iframe>');
+var rm_data = new Object();
+rm_data.creative_id = 23215927;
+rm_data.offer_type = 4;
+rm_data.entity_id = 164041;
+if (window.rm_crex_data) {rm_crex_data.push(23215927);}

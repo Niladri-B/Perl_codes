@@ -1,0 +1,1077 @@
+/* ------ Section 1 - Global Body, Font and Link Settings ------ */
+
+body {
+background: #fff;
+font: 0.813em/1.3 Verdana, Geneva, sans-serif;
+color: #000;
+margin: 0;
+}
+a img {
+border: 0;
+}
+
+/* ------ Section 2 - Global Page Structure ------- */
+
+#PageWrapper {
+width: 725px;
+}
+
+table#PageWrapper {
+border-collapse: collapse;
+}
+
+td#Header,
+td#Footer,
+td#NavColumn,
+td#ContentWrapper,
+td#ContentColumn {
+padding: 0;
+vertical-align: top;
+}
+
+/* -- Header -- */
+
+#Header {
+width: 725px;
+}
+
+#Header .Liner {
+min-height: 63px;
+_height: 63px;
+}
+
+
+/* -- NavColumn -- */
+
+#NavColumn {
+width: 130px;
+}
+
+#NavColumn .Liner {
+padding: 1px 4px;
+}
+
+div#NavColumn {
+float: left;
+margin-left: -725px;
+}
+
+/* -- ContentColumn -- */
+
+#ContentWrapper {
+width: 595px;
+}
+
+div#ContentWrapper {
+float: left;
+padding-left: 130px;
+}
+
+#ContentColumn {
+width: 595px;
+}
+
+#ContentColumn .Liner {
+padding: 16px 64px 16px 31px;
+}
+
+/* -- ExtraColumn -- */
+
+#ExtraColumn {
+display: none;
+}
+
+/* -- Footer -- */
+
+#Footer {
+width: 725px;
+clear: both;
+}
+
+.Liner {
+padding: 1px 0;
+*zoom: 1;
+}
+
+/* ------ Section 3 - Page Structure Details ------ */
+
+#Header .Liner {
+background: url('../image-files/topimage.gif') no-repeat;
+}
+
+#Footer .Liner {
+text-align: center;
+background: #fff;
+}
+
+/* ------ Section 4 - Left Column Navigation ------ */
+
+#PageWrapper .Navigation h3 { /* Nav Headers rules to prevent sitedesigner h3 inheritance */
+font-family: Verdana, Geneva, sans-serif;
+font-size: 18.2px;
+font-weight: bold;
+font-style: normal;
+color: #000000;
+text-align: left;
+background: transparent;
+border: 0;
+}
+
+.Navigation {
+margin-top: -1px;
+}
+
+#PageWrapper .Navigation h3,
+.Navigation ul {
+margin: 0 -4px;
+padding: 0;
+}
+
+.Navigation li {
+margin: 0;
+list-style: none;
+display: block;
+}
+
+.Navigation ul a,
+.Navigation ul a:visited {
+display: block;
+height: 26px;
+line-height: 26px;
+overflow: hidden;
+text-align: center;
+text-decoration: none;
+color: #000;
+}
+
+table#PageWrapper .Navigation ul a {
+min-width: 130px;
+_width: 130px;
+}
+
+/* ------ Section 5 - Additional Navigation ------ */
+
+/* -- Thumbnail-with-Caption Navigation -- */
+
+.ThumbnailLink {
+text-align: center;
+}
+
+/* -- Horizontal Text NavBar -- */
+
+#Header .ExtraNav {
+padding: 1px;
+text-align: right;
+}
+
+#Header .ExtraNav ul {
+margin-top: 0;
+}
+
+.ExtraNav ul {
+margin: 0.5em 0;
+padding: 0;
+}
+
+.ExtraNav ul li {
+margin: 0;
+list-style: none;
+display: inline;
+}
+
+/* ------ Section 6 - Specific Font Styles ------ */
+
+h1 {
+font-size: 200%;
+}
+
+h2 {
+font-size: 170%;
+}
+
+h3 {
+font-size: 140%;
+}
+
+h4 {
+font-size: 100%;
+}
+
+h1, h2, h3 {
+margin:8px 0 14px 0;
+}
+
+.Caption {
+font-size: 85%;
+font-weight: bold;
+display: block;
+}
+
+blockquote {
+margin: 1em 2em;
+font-size: 120%;
+font-family: Georgia, serif;
+line-height: 1.4;
+font-style: italic;
+}
+
+/* ------ Section 7 - Boxes ------ */
+
+/* -- Callout Box -- */
+
+#PageWrapper .CalloutBox p { /* SiteDesigner inheritance prevention */
+font-family: Verdana, Geneva, sans-serif;
+font-size: 12px;
+font-variant: normal;
+color: #000000;
+}
+
+.CalloutBox {
+background: #ccc;
+width: 85%;
+margin: 1em auto;
+padding: 0.3em;
+}
+
+.CalloutBox p {
+font-size: 95%;
+margin: 0;
+padding: 0.5em;
+}
+
+/* -- Reminder Box -- */
+
+#PageWrapper .ReminderBox h4 { /* SiteDesigner inheritance prevention */
+font-family: Verdana, Geneva, sans-serif;
+font-size: 13px;
+font-weight: bold;
+font-style: normal;
+font-variant: normal;
+color: #000000;
+text-align: center;
+border: 0;
+margin: 0;
+background: none;
+}
+
+#PageWrapper .ReminderBox p { /* SiteDesigner inheritance prevention */
+font-family: Verdana, Geneva, sans-serif;
+font-size: 13px;
+font-variant: normal;
+color: #000000;
+}
+
+.ReminderBox {
+background: #ccc;
+width: 35%;
+margin: 1em 0;
+padding: 0.3em;
+float: right;
+}
+
+.ReminderBox h4 {
+margin: 0;
+padding: 0.5em;
+text-align: center;
+}
+
+.ReminderBox p {
+margin: 0;
+padding: 0.5em;
+}
+
+/* -- AdSense Boxes -- */
+
+.AdSenseBoxLeft {
+margin: 0 18px 12px;
+float: left;
+}
+
+.AdSenseBoxRight {
+margin: 0 18px 12px;
+float: right;
+}
+
+.AdSenseBoxCenter {
+text-align: center;
+clear: both;
+}
+
+.AdSenseBoxCenter468 {
+width: 468px;
+margin: 0 auto 12px;
+clear: both;
+}
+
+.AdSenseBoxExtraColumn {
+padding: 0;
+margin: 0 auto 12px;
+clear: both;
+}
+
+/* -- Return To Nav Box -- */
+
+.ReturnToNavBox {
+margin: 40px auto 0;
+padding: 0 2px;
+}
+
+/* -- FBI -- */
+
+.formBarGraphBar {
+border: 0;
+background-color: #009;
+}
+
+/* -- Blog -- */
+
+.blogItItem {
+margin: 18px 0;
+border-bottom: 1px solid #ccc;
+}
+
+/* -- RSS Box -- */
+
+.RSSbox {
+padding: 0.2em 0 1em;
+font-weight: bold;
+text-align: center;
+border: 1px solid #000;
+margin-top:8px;
+margin-bottom:8px;
+}
+
+.RSSbox img {
+padding: 1px 0;
+}
+
+.RSSbox ul,
+.RSSbox ul li {
+margin: 0;
+padding: 0;
+}
+
+.RSSbox ul {
+list-style-type: none;
+clear: both;
+}
+
+.RSSbox ul li {
+text-align: center;
+}
+
+.RSSbox ul li img {
+border: 0;
+padding: 1px 0;
+}
+
+/* -- Ezine Box -- */
+
+.Ezine {
+border: 1px solid #666;
+background: #fff;
+color: #000;
+padding: 0.3em;
+margin-top:8px;
+margin-bottom:8px;
+}
+
+.Ezine table {
+width: 100%;
+}
+
+.Ezine td {
+width: 50%;
+text-align: center;
+vertical-align: top;
+}
+
+.Ezine .EzineInputAbove {
+width: 100%;
+}
+
+.EzineInput input {
+width: 90%;
+max-width: 350px;
+}
+
+td.EzineLabel {
+text-align: right;
+font-weight: bold;
+}
+
+td.EzineLabelAbove {
+text-align: center;
+}
+
+.EzineDescription {
+text-align: center;
+}
+
+.EzineDescription small {
+font-size: 90%;
+}
+
+/* -- ImageBlock -- */
+
+/* overrides design CSS max-width: 100% for imgs */
+div#PageWrapper img,
+table#PageWrapper img {
+    max-width: none;
+}
+
+/* none-JavaScript fix for too large images */
+#PageWrapper .ImageBlock img {
+    max-width: 100%;
+}
+
+/* IE9 and Chrome (~20) margin fix for block images with margin: auto */
+.ImageBlock img {
+    margin: 0;
+}
+
+#PageWrapper .ImageBlock {
+    overflow: hidden;
+}
+
+#PageWrapper .ImageBlockLeft {
+    float: left;
+    text-align: center;
+}
+
+#PageWrapper .ImageBlockLeft img {
+    margin-right: 5px;
+}
+
+#PageWrapper .ImageBlockRight {
+    float: right;
+    text-align: center;
+}
+
+#PageWrapper .ImageBlockRight img {
+    margin-left: 5px;
+}
+
+#PageWrapper .ImageBlockCenter {
+    text-align: center;
+}
+
+#PageWrapper .noalignment {
+    float: left;
+}
+
+#PageWrapper .pinit {
+    text-align: center;
+}
+
+#PageWrapper .FormBlockLeft .formwrapper {
+    float: left;
+    margin-right: 5px;
+}
+
+#PageWrapper .FormBlockRight .formwrapper {
+    float: right;
+    margin-left: 5px;
+}
+
+#PageWrapper .FormBlockCenter .formwrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* center Facebook like and comment widgets */
+#PageWrapper .fb-like,
+#PageWrapper .fb-comments {
+    display: block;
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* special classname for forms */
+#PageWrapper .formbody td {
+    padding: 2px;
+}
+
+/* remove graphical bullets in the C2 Thank you notifications section */
+#notificationOptions,
+#notificationOptions li {
+    list-style-type: none;
+}
+
+.socializeIt,
+.formbody,
+.c2_invitation {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.googlePlusOne {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* -- TOC -- */
+
+.TOC dt {
+font-weight: bold;
+}
+.TOC dd {
+margin-bottom:20px;
+}
+
+/* ------ Section 8 - Frequently Used Styles ------ */
+
+/* -- lists -- */
+
+#ContentColumn ul {
+list-style-type: disc;
+margin: 0 0 8px 10px;
+padding-left: 40px;
+}
+
+#ContentColumn li {
+margin: 0 0 8px 5px;
+}
+
+#ContentColumn ol {
+list-style-type: decimal;
+margin: 0 0 8px 10px;
+}
+
+/* -- floats -- */
+
+hr {
+clear: both;
+}
+
+#PageWrapper .ImageBlockCenter {
+margin: 1em 0;
+}
+
+.ItemRight {
+float: right;
+margin: 2px 0 12px 18px;
+text-align: center;
+}
+
+.ItemCenter {
+margin: 2px auto 12px auto;
+text-align: center;
+clear: both;
+}
+
+.ItemLeft {
+float: left;
+margin: 2px 18px 12px 0;
+text-align: center;
+}
+
+.Center {
+text-align: center;
+}
+
+
+/* ======================================================================= */
+/* Mobilize It! CSS */
+@media only screen and (max-device-width: 480px) {
+    html {
+        -webkit-text-size-adjust: none; /* prevent iOS from scaling text */
+    }
+}
+
+html.landscape #ContentColumn { /* landscape mode */
+    font-size: 125%;
+    line-height: 1.3;
+}
+
+html.mobile .desktopOnly {
+    display: none;
+}
+
+.mobileOnly {
+    display: none;
+}
+
+html.mobile .mobileOnly {
+    display: block;
+}
+
+html.mobile form > table {
+    max-width: 100% !important;
+    width: auto !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html.mobile #NotifyDiv  input[type="text"],
+html.mobile .formbody input[type="text"],
+html.mobile .comments input[type="text"],
+html.mobile #NotifyDiv  textarea,
+html.mobile .formbody textarea,
+html.mobile .comments textarea,
+html.mobile #NotifyDiv  select,
+html.mobile .formbody select,
+html.mobile .comments select {
+    width: 90% !important;
+}
+
+html.mobile #pendingSubmission table {
+    width: 100%;
+}
+
+html.mobile img {
+    max-width: 100%;
+    height: auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html.mobile iframe {
+    max-width: 100%;
+}
+
+#toolbar {
+    display:none;
+}
+
+#toolbar {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1000;
+    padding: 4px 2px;
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+html.mobile #toolbar {
+    display: table;
+    padding: 0;
+}
+
+html.mobile #toolbarInnerWrapper {
+    display: table-cell;
+    vertical-align: middle;
+    height: 35px;
+}
+
+html.mobile #toolbar button {
+    width: 47.5%;
+    font-size: 12px;
+    padding: 0.3em;
+}
+
+html.android2 #toolbar button {
+    background: #f7f7f7;
+    border: 1px solid #2F4255;
+    border-radius: 0.5em;
+}
+
+html.fullView #mobileBtn {
+    width: 97%;
+}
+
+html.mobile #toTopBtn,
+html.mobile #navBtn {
+    width: 64.1%;
+}
+
+html.mobile #fullBtn {
+    width: 31.1%;
+    margin-right: 4px;
+}
+
+html.mobile #fullBtn,
+html.mobile #navBtn {
+    display: inline-block;
+}
+
+#fullBtn,
+#navBtn,
+#toTopBtn,
+html.mobile #mobileBtn {
+    display: none;
+}
+
+.iosbtnfix {
+    height: 1000px;
+    overflow: hidden;
+}
+
+.phantomHeaderImage {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+html.mobile,
+html.mobile body {
+    height: 100%;
+}
+
+html.mobile #PageWrapper {
+    margin-top: 35px;
+    text-align: center;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-size: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+html.fullView #PageWrapper {
+    margin-top: 65px;
+}
+
+html.mobile #Header,
+html.mobile #Footer {
+    width: 100%;
+}
+
+html.mobile #Header .Liner{
+    background-size: 100%;
+}
+
+html.mobile #ContentWrapper {
+    padding: 0;
+    float: none;
+    width: auto;
+}
+
+html.mobile #ContentColumn {
+    width: auto;
+}
+
+html.mobile #ContentColumn,
+html.mobile #NavColumn {
+    float: none;
+    margin: 0;
+}
+
+html.mobile #NavColumn {
+    margin-top: 200px;
+}
+
+html.mobile #ContentColumn,
+html.mobile #Header,
+html.mobile #NavColumn {
+    text-align: left;
+}
+
+html.mobile #NavColumn {
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+html.mobile #Footer {
+    position: absolute;
+    top: 10000px;
+    left: 0;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 550px) {
+    html.mobile .socializeIt,
+    html.mobile .socializeIt img {
+        width: 100% !important;
+    }
+
+    html.mobile .socializeIt-2 > tbody > tr:first-child > td {
+        width: 45%;
+    }
+
+    html.mobile .socializeIt-2 > tbody > tr:first-child > td:first-child {
+        width: 10%;
+    }
+}
+
+html.mobile blockquote {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* hide elements in mobile view */
+html.mobile .ExtraNav {
+    display: none !important;
+}
+
+/* ======================================================================= */
+/* design-specific modifications */
+
+html.mobile #PageWrapper {
+    background: transparent;
+}
+
+html.mobile #ContentColumn .Liner {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+html.mobile #NavColumn .Liner {
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+html.mobile #Footer .Liner {
+    padding: 2% 2% 6%;
+}
+
+html.mobile .CalloutBox {
+    padding: 1%;
+}/***** C2 styles *****/
+.c2Form {
+    padding:8px;
+    border:1px solid #ddd;
+}
+
+.InvShelp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #ffc;
+}
+
+.InvShelpT {
+    background:#ddd; 
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin:0px;
+    padding:0px;
+    text-align:left;
+}
+
+a:link.InvShelp {text-decoration:none; color:#000;}
+
+.InvShelpbox {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #ffc;
+    padding: 2px;
+    border: 1px solid #666;
+}
+
+.InvSquestions {
+    font-weight:bold;
+    font-size:14px;
+    margin:0;
+}
+
+.titleInput {
+    width:80%;     
+    padding-top:4px;
+    margin:0;
+}
+
+.storyInput {
+    width:98%;
+    padding-top:4px;
+    margin:0;
+}
+
+.otherText {
+}
+  
+.dividerRule {
+    border-top:1px solid #ddd;
+}
+
+/***** Blog It! styles *****/
+
+.blogItItem .blogItThumbnail {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 150px;
+}
+
+.blogItItem .blogItReadMore {
+    clear: both;
+}
+
+
+/***********************************************/
+/* Customizations from SiteDesigner start here */
+/***********************************************/
+
+/* font TechnoRegular definition */
+@font-face {
+    font-family: TechnoRegular;
+    src: url('/support-files/techno-webfont.eot');
+    src: url('/support-files/techno-webfont.eot?iefix') format('eot'),
+         url('/support-files/techno-webfont.woff') format('woff'),
+         url('/support-files/techno-webfont.ttf') format('truetype'),
+         url('/support-files/techno-webfont.svg#webfontlgdQ77RQ') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+body, html.mobile body{background-image:url("/sd/image-files/background.gif");font-size:13px;
+}html.mobile body{
+}#Footer .Liner p, html.mobile #Footer .Liner p{
+}html.mobile #Footer .Liner p{
+}#Footer .Liner, html.mobile #Footer .Liner{
+}html.mobile #Footer .Liner{
+}#Header .Liner, html.mobile #Header .Liner{background-image:url("/sd/image-files/top.gif");
+}html.mobile #Header .Liner{
+}
+#Header .Liner {                min-height: 136px;
+    _height: 136px; /* IE6 min-height fix */}
+html.mobile #Header .Liner {
+    min-height: ;
+}#Header .Liner, html.mobile #Header .Liner{background-image:url("/sd/image-files/top.gif");
+}html.mobile #Header .Liner{
+}
+#ExtraColumn .Liner, html.mobile #ExtraColumn .Liner{
+}html.mobile #ExtraColumn .Liner{
+}#ExtraColumn , html.mobile #ExtraColumn {
+}html.mobile #ExtraColumn {
+}#NavColumn .Liner, html.mobile #NavColumn .Liner{background-image:url("/sd/image-files/left.gif");
+}html.mobile #NavColumn .Liner{
+}#NavColumn , html.mobile #NavColumn {
+}html.mobile #NavColumn {
+}#ContentColumn .Liner, html.mobile #ContentColumn .Liner{
+}html.mobile #ContentColumn .Liner{
+}#ContentColumn , html.mobile #ContentColumn {
+}html.mobile #ContentColumn {
+}#ContentColumn p, html.mobile #ContentColumn p{
+}html.mobile #ContentColumn p{
+}#PageWrapper, html.mobile #PageWrapper{margin-left:auto;margin-right:auto;margin-left:auto;margin-right:auto;
+}html.mobile #PageWrapper{
+}#PageWrapper h1, html.mobile #PageWrapper h1{
+}html.mobile #PageWrapper h1{
+}#PageWrapper h2, html.mobile #PageWrapper h2{
+}html.mobile #PageWrapper h2{
+}#PageWrapper h3, html.mobile #PageWrapper h3{
+}html.mobile #PageWrapper h3{
+}#PageWrapper h4, html.mobile #PageWrapper h4{
+}html.mobile #PageWrapper h4{
+}.Navigation h3, html.mobile .Navigation h3{border-color:#FFFFFF;border-style:solid;background-color:#FFFFFF;font-family:Verdana, Geneva, sans-serif;text-align:left;font-size:14px;color:#000000;font-weight:bold;
+}html.mobile .Navigation h3{
+}#PageWrapper .Navigation h3, html.mobile #PageWrapper .Navigation h3{border-color:#FFFFFF;border-style:solid;background-color:#FFFFFF;font-family:Verdana, Geneva, sans-serif;text-align:left;font-size:14px;color:#000000;font-weight:bold;
+}html.mobile #PageWrapper .Navigation h3{
+}.Navigation a, html.mobile .Navigation a{font-family:TechnoRegular, "Trebuchet MS1", "Trebuchet MS", sans-serif;font-family:TechnoRegular, "Trebuchet MS1", "Trebuchet MS", sans-serif;background-image:url("/sd/image-files/navimage.gif");
+}html.mobile .Navigation a{
+}#PageWrapper .Navigation a, html.mobile #PageWrapper .Navigation a{font-family:TechnoRegular, "Trebuchet MS1", "Trebuchet MS", sans-serif;font-family:TechnoRegular, "Trebuchet MS1", "Trebuchet MS", sans-serif;background-image:url("/sd/image-files/navimage.gif");
+}html.mobile #PageWrapper .Navigation a{
+}.Navigation a,
+#PageWrapper .Navigation a {    height:26px;
+    line-height:26px;}
+html.mobile .Navigation a,
+html.mobile #PageWrapper .Navigation a {}.Navigation a:link, html.mobile .Navigation a:link{color:#FFFFFF;
+}html.mobile .Navigation a:link{
+}#PageWrapper .Navigation a:link, html.mobile #PageWrapper .Navigation a:link{color:#FFFFFF;
+}html.mobile #PageWrapper .Navigation a:link{
+}.Navigation a:visited, html.mobile .Navigation a:visited{color:#FFFFFF;
+}html.mobile .Navigation a:visited{
+}#PageWrapper .Navigation a:visited, html.mobile #PageWrapper .Navigation a:visited{color:#FFFFFF;
+}html.mobile #PageWrapper .Navigation a:visited{
+}.Navigation a:hover, html.mobile .Navigation a:hover{color:#FFFFFF;
+}html.mobile .Navigation a:hover{
+}#PageWrapper .Navigation a:hover, html.mobile #PageWrapper .Navigation a:hover{color:#FFFFFF;
+}html.mobile #PageWrapper .Navigation a:hover{
+}.TOC, html.mobile .TOC{
+}html.mobile .TOC{
+}.Ezine, html.mobile .Ezine{border-color:#666666;
+}html.mobile .Ezine{
+}
+
+.Ezine {
+    padding: 4px 0;
+}
+#PageWrapper .RSSbox, html.mobile #PageWrapper .RSSbox{
+}html.mobile #PageWrapper .RSSbox{
+}#PageWrapper .RSSbox .questionMark, html.mobile #PageWrapper .RSSbox .questionMark{
+}html.mobile #PageWrapper .RSSbox .questionMark{
+}#PageWrapper .ImageBlock img, html.mobile #PageWrapper .ImageBlock img{
+}html.mobile #PageWrapper .ImageBlock img{
+}#PageWrapper .ImageBlock, html.mobile #PageWrapper .ImageBlock{
+}html.mobile #PageWrapper .ImageBlock{
+}#PageWrapper .ImageBlockRight, html.mobile #PageWrapper .ImageBlockRight{
+}html.mobile #PageWrapper .ImageBlockRight{
+}#PageWrapper .ImageBlockLeft, html.mobile #PageWrapper .ImageBlockLeft{
+}html.mobile #PageWrapper .ImageBlockLeft{
+}#ContentColumn ol, html.mobile #ContentColumn ol{
+}html.mobile #ContentColumn ol{
+}#ContentColumn ol li, html.mobile #ContentColumn ol li{
+}html.mobile #ContentColumn ol li{
+}#ContentColumn ul, html.mobile #ContentColumn ul{
+}html.mobile #ContentColumn ul{
+}#ContentColumn ul li, html.mobile #ContentColumn ul li{
+}html.mobile #ContentColumn ul li{
+}#PageWrapper .CalloutBox p, html.mobile #PageWrapper .CalloutBox p{
+}html.mobile #PageWrapper .CalloutBox p{
+}#PageWrapper .CalloutBox, html.mobile #PageWrapper .CalloutBox{
+}html.mobile #PageWrapper .CalloutBox{
+}#PageWrapper .ReminderBox, html.mobile #PageWrapper .ReminderBox{background-color:#CCCCCC;
+}html.mobile #PageWrapper .ReminderBox{
+}#PageWrapper .ReminderBox h4, html.mobile #PageWrapper .ReminderBox h4{
+}html.mobile #PageWrapper .ReminderBox h4{
+}#PageWrapper .ReminderBox p, html.mobile #PageWrapper .ReminderBox p{
+}html.mobile #PageWrapper .ReminderBox p{
+}#ContentColumn a, html.mobile #ContentColumn a{
+}html.mobile #ContentColumn a{
+}#ContentColumn a:link, html.mobile #ContentColumn a:link{color:#0000EE;
+}html.mobile #ContentColumn a:link{
+}#ContentColumn a:visited, html.mobile #ContentColumn a:visited{
+}html.mobile #ContentColumn a:visited{
+}#ContentColumn a:hover, html.mobile #ContentColumn a:hover{
+}html.mobile #ContentColumn a:hover{
+}#toolbar, html.mobile #toolbar{
+}html.mobile #toolbar{
+}/* footer css */
+/* font AvantGardeRegular definition */
+@font-face {
+    font-family: AvantGardeRegular;
+    src: url('/support-files/avantgarde-webfont.eot');
+    src: url('/support-files/avantgarde-webfont.eot?iefix') format('eot'),
+         url('/support-files/avantgarde-webfont.woff') format('woff'),
+         url('/support-files/avantgarde-webfont.ttf') format('truetype'),
+         url('/support-files/avantgarde-webfont.svg#webfontILwWK1qr') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+.page_footer_container {
+    width:100%; max-width: 500px;
+    margin: 12px auto;
+}
+
+.page_footer_content {
+    width: 100%;
+    text-align:center;background-color:#FFFFFF;}
+
+.page_footer_liner {
+    padding: 12px;	
+}
+
+.page_footer_divider_above {
+    margin: 0 auto;width:100%;
+        border: 0; 
+        border-top:1pxsolid#000099;}
+
+.page_footer_divider_below {
+    margin: 0 auto;width:100%;
+        border: 0; 
+        border-top:1pxsolid#333399;}
+
+.page_footer_text,
+.page_footer_text a {
+    font-family:AvantGardeRegular;font-size:12px;color:#000000;text-align:center;padding: 12px 0;
+}
+
+.powered_by_sbi_banner{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;	
+}/* footer css */
+/* Advanced CSS provided by user */

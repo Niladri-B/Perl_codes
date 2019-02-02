@@ -1,0 +1,7 @@
+document.write('<a target=\"_blank\" href=\"http://adserving.cpxinteractive.com/clk?3,eJydjc1ugzAQhJ8mNxJhmxAq1MPyJxHFtKSkEb0ZYxklBiNwZfXtS9ukvffTame0O6tFJORcoAe.aYm34wx7bYg81DZB4Pls57hhGCKEXYQJ9n3HpaOEuNSZhffnE43gi2Rvawl3XltZ3qwGKCHOXvLxvu8HL.5xMc.JDP8neotscPM5gAWQSQDHE8uxm0a.saRTdZ-i4pypQ1V0xSU1tMoU.UAd7Y.XQ5Vaeq5JkexVccm3T38PHh2nM2ZcEVjhbClr7YYzo4eemc0gzDJqlJaLzIJPwqxHMam1XvoSmubvIyI1M7P4BMxcaOY=,\"><img border=\"0\" alt=\"\" height=\"60\" width=\"468\" src=\"http://content.yieldmanager.edgesuite.net/atoms/07/15/a5/e3/0715a5e38ae689ea889db81604d7fa95.gif\"></img></a>');
+var rm_data = new Object();
+rm_data.creative_id = 21183790;
+rm_data.offer_type = 28;
+rm_data.entity_id = 793619;
+
+if (window.rm_crex_data) {rm_crex_data.push(21183790);}

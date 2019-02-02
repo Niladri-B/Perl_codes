@@ -1,0 +1,92 @@
+use 5.014;
+use warnings;
+
+#Assign filename
+my $file = 'Genome_Wide_TSS.out' ;
+
+#Open filename
+open my $fh, '<', $file or die $!;
+
+#Open outputfile
+open OUT1, ">TSS-10kb_chr1_mod.out" or die $!;
+open OUT2, ">TSS-10kb_chr2_mod.out" or die $!;
+open OUT3, ">TSS-10kb_chr3_mod.out" or die $!;
+open OUT4, ">TSS-10kb_chr4_mod.out" or die $!;
+open OUT5, ">TSS-10kb_chr5_mod.out" or die $!;
+open OUT6, ">TSS-10kb_chr6_mod.out" or die $!;
+open OUT7, ">TSS-10kb_chr7_mod.out" or die $!;
+open OUT8, ">TSS-10kb_chr8_mod.out" or die $!;
+open OUT9, ">TSS-10kb_chr9_mod.out" or die $!;
+open OUT10, ">TSS-10kb_chr10_mod.out" or die $!;
+open OUT11, ">TSS-10kb_chr11_mod.out" or die $!;
+open OUT12, ">TSS-10kb_chr12_mod.out" or die $!;
+open OUT13, ">TSS-10kb_chr13_mod.out" or die $!;
+open OUT14, ">TSS-10kb_chr14_mod.out" or die $!;
+open OUT15, ">TSS-10kb_chr15_mod.out" or die $!;
+open OUT16, ">TSS-10kb_chr16_mod.out" or die $!;
+open OUT17, ">TSS-10kb_chr17_mod.out" or die $!;
+open OUT18, ">TSS-10kb_chr18_mod.out" or die $!;
+open OUT19, ">TSS-10kb_chr19_mod.out" or die $!;
+open OUT20, ">TSS-10kb_chr20_mod.out" or die $!;
+open OUT21, ">TSS-10kb_chr21_mod.out" or die $!;
+open OUT22, ">TSS-10kb_chr22_mod.out" or die $!;
+open OUT23, ">TSS-10kb_chr23_mod.out" or die $!;
+open OUT24, ">TSS-10kb_chr24_mod.out" or die $!;
+
+#Read in file
+while(<$fh>){
+	my @val = split;
+	if($val[1] eq "chr1"){
+		say OUT1 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr2"){
+		say OUT2 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr3"){
+		say OUT3 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr4"){
+		say OUT4 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr5"){
+		say OUT5 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr6"){
+		say OUT6 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr7"){
+		say OUT7 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr8"){
+		say OUT8 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr9"){
+		say OUT9 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr10"){
+		say OUT10 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr11"){
+		say OUT11 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr12"){
+		say OUT12 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr13"){
+		say OUT13 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr14"){
+		say OUT14 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr15"){
+		say OUT15 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr16"){
+		say OUT16 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr17"){
+		say OUT17 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr18"){
+		say OUT18 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr19"){
+		say OUT19 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr20"){
+		say OUT20 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr21"){
+		say OUT21 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chr22"){
+		say OUT22 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chrX"){
+		say OUT23 $val[1],"\t",$val[3]-10000;
+	}elsif($val[1] eq "chrY"){
+		say OUT24 $val[1],"\t",$val[3]-10000;
+	}
+                                        
+}
+
+#Exit
+exit;
